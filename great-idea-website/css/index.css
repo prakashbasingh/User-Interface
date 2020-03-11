@@ -64,3 +64,18 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+/* for whole page */
+.body{
+	width: fullpage;
+	height: fullpage;
+	margin: 10px;
+}
+
+
+/* for navigation bar */
+.navigation a {
+	color: red;
+	margin:0 3.5%;
+	display: inline-block;
+}
