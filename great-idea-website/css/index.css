@@ -28,6 +28,11 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+
+
+*{
+	border: 2px solid red;
+}
 body {
 	line-height: 1;
 }
@@ -66,16 +71,92 @@ h1, h2, h3, h4, h5 {
 /* Your code starts here! */
 
 /* for whole page */
-.body{
-	width: fullpage;
-	height: fullpage;
+#body{
+	background: white;
+	width: 100%;
+	height: 100%;
+	padding: 30px;
 	margin: 10px;
 }
 
-
 /* for navigation bar */
 .navigation a {
-	color: red;
-	margin:0 3.5%;
+	margin:0 5%;
+	text-decoration: none;
+	width: 100%;
+}
+.logo{
+	text-align: right;
+}
+
+/* CSS styles for header */
+#first-big-container{
+	margin: 20px auto;
 	display: inline-block;
+	width: 100%;
+}
+.big-header{
+	width:40%;
+	display: inline-block;
+	text-align: center;
+	margin-top: 5%;
+}
+h1{
+	font-size: 60px;
+}
+.first-image{
+    width:40%;
+	margin-right: 10%; 
+	float: right;
+
+}
+
+/* CSS styles for top-body-content  */
+#top-body-container{
+
+}
+.second-big-container{
+	margin: 20px auto;
+	width: 100%;
+}
+.feature{
+	width:40%;
+	display: inline-block;
+	margin-right: 10%; 
+}
+.about{
+	width:40%;
+	display: inline-block;
+}
+/* CSS styles second image */
+.second-image{
+	margin: 200 auto;
+	text-align: center;
+
+}
+/* CSS styles for bottom-body-content  */
+.third-big-container{
+	margin: 20px auto;
+	width: 100%;
+	display: inline-block;
+}
+
+.service{
+	width:30%;
+	display: inline-block;
+	
+}
+.product{
+	width:30%;
+	display: inline-block;
+	
+}
+.vision{
+	width:30%;
+	display: inline-block;
+}
+
+/* css style for footer */
+.footer{
+	text-align: center;
 }
